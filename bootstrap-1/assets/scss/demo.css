@@ -1,0 +1,41 @@
+body {
+  color: #6ab04c;
+}
+
+body .left-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(../img/left-menu-bg.jpg);
+}
+
+body .left-menu .cover {
+  background: rgba(106, 176, 76, 0.5);
+}
+
+body .left-menu .menu {
+  margin-top: 10px;
+}
+
+body .left-menu .menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body .left-menu .menu ul li a {
+  color: #6ab04c;
+}
+
+body .left-menu .menu ul li a:hover {
+  background: #6ab04c;
+}
+
+body .left-menu .menu ul li ul {
+  display: none;
+}
+
+body .left-menu .menu ul li:hover ul {
+  display: block;
+}
+/*# sourceMappingURL=demo.css.map */

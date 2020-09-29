@@ -1,0 +1,47 @@
+@import 'variables';
+
+body {
+    color: $base-color;
+
+    .left-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: url(../img/left-menu-bg.jpg);
+
+        .cover {
+            background: rgba($base-color, 0.5);
+        }
+
+        .menu {
+            margin-top: 10px;
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+
+                    a {
+                        color: $base-color;
+                        
+                        &:hover {
+                            background: $base-color;
+                        }
+                    }
+
+                    ul {
+                        display: none;
+                    }
+
+                    &:hover {
+                        ul {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
