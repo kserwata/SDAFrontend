@@ -170,3 +170,24 @@ body {
     text-align: center;
     text-decoration: none;
 }
+
+.box {
+    position: relative;
+    margin-left: 330px;
+    margin-top: 70px;
+    width: calc(100% - 360px);
+    background: #ffffff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.box .title {
+    padding: 10px;
+    background: #6ab04c;
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.box .content {
+    padding: 10px;
+}
