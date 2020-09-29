@@ -1,3 +1,7 @@
+body {
+    background: #f0f0f0;
+}
+
 .left-menu {
     position: fixed;
     left: 0;
@@ -103,4 +107,45 @@
     border-top: 1px solid #ffffff;
     margin-top: 20px;
     width: 100%;
+}
+
+.top-menu {
+    position: fixed;
+    top: 0;
+    left: 300px;
+    background: #ffffff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: calc(100% - 300px);
+    text-align: right;
+}
+
+.top-menu .icon-buttons {
+    position: relative;
+    display: inline-block;
+}
+
+.top-menu .icon-buttons a {
+    color: #838383;
+    padding: 10px;
+    display: inline-block;
+}
+
+.top-menu .user-info {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    border-left: 1px solid #bebebe;
+}
+
+.top-menu .user-info .user-menu {
+    position: absolute;
+    background: #fff;
+    margin-top: 12px;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.top-menu .user-info:hover .user-menu {
+    display: block;
 }
