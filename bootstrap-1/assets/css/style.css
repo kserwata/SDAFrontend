@@ -172,6 +172,14 @@ body {
     text-decoration: none;
 }
 
+.top-menu .timer {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
 .box {
     position: relative;
     margin-left: 330px;
